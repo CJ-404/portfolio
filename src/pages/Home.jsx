@@ -59,10 +59,7 @@ const Home = () => {
 
   return (
     <section className='w-full h-screen relative'>
-      <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
-        {currentStage && <HomeInfo currentStage={currentStage} />}
-      </div>
-
+      {/* main 3D model */}
       <Canvas
         className={`w-full h-screen bg-transparent ${
           isRotating ? "cursor-grabbing" : "cursor-grab"
@@ -70,8 +67,8 @@ const Home = () => {
         camera={{ near: 0.1, far: 1000 }}
       >
         <Suspense fallback={<Loader />}>
-          <directionalLight position={[1, 1, 1]} intensity={2} />
-          <ambientLight intensity={0.5} />
+          <directionalLight position={[2, 1, 1]} intensity={2} />
+          <ambientLight intensity={0.2} />
           <pointLight position={[10, 5, 10]} intensity={2} />
           <spotLight
             position={[0, 50, 10]}
@@ -104,6 +101,11 @@ const Home = () => {
         </Suspense>
       </Canvas>
 
+      <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
+        {currentStage && <HomeInfo currentStage={currentStage} />}
+      </div>
+      
+      {/* sound play button */}
       <div className='absolute bottom-2 left-2'>
         <img
           src={!isPlayingMusic ? soundoff : soundon}
