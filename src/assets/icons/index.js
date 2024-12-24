@@ -30,6 +30,7 @@ import riverpod from './riverpod.svg'
 import flutter from './flutter.svg'
 import dart from './dart.svg'
 import firebase from './firebase.svg'
+import parisdisneyshuttle from './parisdisneyshuttle.png'
 
 export {
     css,
@@ -64,4 +65,5 @@ export {
     flutter,
     dart,
     firebase,
+    parisdisneyshuttle,
 }
