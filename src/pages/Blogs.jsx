@@ -32,14 +32,14 @@ const Blogs = () => {
           <VerticalTimeline>
             {BlogDetails.map((blog, index) => (
               <VerticalTimelineElement
-                key={blog.company_name}
+                key={blog.hosted_site}
                 date={blog.date}
                 iconStyle={{ background: blog.iconBg }}
                 icon={
                   <div className='flex justify-center items-center w-full h-full'>
                     <img
                       src={blog.icon}
-                      alt={blog.company_name}
+                      alt={blog.hosted_site}
                       className='w-[60%] h-[60%] object-contain'
                     />
                   </div>
@@ -55,12 +55,15 @@ const Blogs = () => {
                   <h3 className='text-black text-xl font-poppins font-semibold'>
                     {blog.title}
                   </h3>
-                  <p
-                    className='text-black-500 font-medium text-base'
-                    style={{ margin: 0 }}
+                  {/* link to the blog post */}
+                  <a
+                    href={blog.link}
+                    target='_blank'
+                    rel='noreferrer'
+                    className='text-blue-600 text-sm font-normal'
                   >
-                    {blog.company_name}
-                  </p>
+                    Read more
+                  </a>
                 </div>
 
                 <ul className='my-5 list-disc ml-5 space-y-2'>

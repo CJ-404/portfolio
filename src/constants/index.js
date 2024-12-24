@@ -250,6 +250,7 @@ export const BlogDetails = [
         icon: medium,
         iconBg: "#8B35E150",
         date: "November 2023",
+        link: "https://medium.com/",
         points: [
             "Points on the blog post",
         ],
