@@ -4,7 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 
 import { CTA } from "../components";
-import { experiences, skills } from "../constants";
+import { BlogDetails, skills } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -30,16 +30,16 @@ const Blogs = () => {
 
         <div className='mt-12 flex'>
           <VerticalTimeline>
-            {experiences.map((experience, index) => (
+            {BlogDetails.map((blog, index) => (
               <VerticalTimelineElement
-                key={experience.company_name}
-                date={experience.date}
-                iconStyle={{ background: experience.iconBg }}
+                key={blog.company_name}
+                date={blog.date}
+                iconStyle={{ background: blog.iconBg }}
                 icon={
                   <div className='flex justify-center items-center w-full h-full'>
                     <img
-                      src={experience.icon}
-                      alt={experience.company_name}
+                      src={blog.icon}
+                      alt={blog.company_name}
                       className='w-[60%] h-[60%] object-contain'
                     />
                   </div>
@@ -47,26 +47,26 @@ const Blogs = () => {
                 contentStyle={{
                   borderBottom: "8px",
                   borderStyle: "solid",
-                  borderBottomColor: experience.iconBg,
+                  borderBottomColor: blog.iconBg,
                   boxShadow: "none",
                 }}
               >
                 <div>
                   <h3 className='text-black text-xl font-poppins font-semibold'>
-                    {experience.title}
+                    {blog.title}
                   </h3>
                   <p
                     className='text-black-500 font-medium text-base'
                     style={{ margin: 0 }}
                   >
-                    {experience.company_name}
+                    {blog.company_name}
                   </p>
                 </div>
 
                 <ul className='my-5 list-disc ml-5 space-y-2'>
-                  {experience.points.map((point, index) => (
+                  {blog.points.map((point, index) => (
                     <li
-                      key={`experience-point-${index}`}
+                      key={`blog-point-${index}`}
                       className='text-black-500/50 font-normal pl-1 text-sm'
                     >
                       {point}

@@ -45,6 +45,7 @@ import {
     php,
     sonarqube,
     springboot,
+    medium,
 } from "../assets/icons";
 
 export const skills = [
@@ -240,6 +241,19 @@ export const experiences = [
             "Collaborating with cross-functional teams including designers, product managers, and other developers to deliver high-quality products.",
         ],
     },
+];
+
+export const BlogDetails = [
+    {
+        title: "Blog 1",
+        hosted_site: "Medium",
+        icon: medium,
+        iconBg: "#8B35E150",
+        date: "November 2023",
+        points: [
+            "Points on the blog post",
+        ],
+    }
 ];
 
 export const socialLinks = [

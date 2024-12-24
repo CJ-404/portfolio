@@ -47,6 +47,7 @@ import mysql from './mysql.svg'
 import php from './php.svg'
 import sonarqube from './sonarqube.svg'
 import springboot from './springboot.svg'
+import medium from './medium.svg'
 
 export {
     css,
@@ -98,4 +99,5 @@ export {
     php,
     sonarqube,
     springboot,
+    medium,
 }
