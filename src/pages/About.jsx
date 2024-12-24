@@ -15,15 +15,16 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Charith
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+        I’m a 4th-year Computer Science undergraduate @UCSC passionate about operating systems, 
+        microkernel architectures, and modern web and mobile development & architecture design 
+        with the help of my profound knowledge in computer science fundamentals.
         </p>
       </div>
 
@@ -32,7 +33,7 @@ const About = () => {
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
-            <div className='block-container w-20 h-20' key={skill.name}>
+            <div className='relative group block-container w-20 h-20' key={skill.name}>
               <div className='btn-back rounded-xl' />
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <img
@@ -41,6 +42,9 @@ const About = () => {
                   className='w-1/2 h-1/2 object-contain'
                 />
               </div>
+              <span className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black text-white text-xs rounded-md px-2 py-1 left-0 right-0 top-20 z-10">
+                {skill.name} - {skill.type}
+              </span>
             </div>
           ))}
         </div>
@@ -50,8 +54,8 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            I've worked in various fields, leveling up my skills and
+            teaming up with smart people:
           </p>
         </div>
 

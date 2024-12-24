@@ -26,6 +26,10 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import riverpod from './riverpod.svg'
+import flutter from './flutter.svg'
+import dart from './dart.svg'
+import firebase from './firebase.svg'
 
 export {
     css,
@@ -55,5 +59,9 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    riverpod,
+    flutter,
+    dart,
+    firebase,
 }

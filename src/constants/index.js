@@ -23,7 +23,11 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    riverpod,
+    flutter,
+    dart,
+    firebase,
 } from "../assets/icons";
 
 export const skills = [
@@ -63,18 +67,8 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
         imageUrl: mui,
         name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
         type: "Frontend",
     },
     {
@@ -93,19 +87,29 @@ export const skills = [
         type: "State Management",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: flutter,
+        name: "Flutter",
+        type: "Frontend",
+    },
+    {
+        imageUrl: dart,
+        name: "Dart",
+        type: "Frontend",
+    },
+    {
+        imageUrl: firebase,
+        name: "Firebase",
+        type: "Backend",
+    },
+    {
+        imageUrl: riverpod,
+        name: "Riverpod",
+        type: "State Management",
     }
 ];
 
