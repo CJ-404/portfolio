@@ -31,6 +31,22 @@ import flutter from './flutter.svg'
 import dart from './dart.svg'
 import firebase from './firebase.svg'
 import parisdisneyshuttle from './parisdisneyshuttle.png'
+import company from './company.png'
+import sysres from './sysres.svg'
+import aws from './aws.svg'
+import bash from './bash.svg'
+import c from './c.svg'
+import cpp from './cpp.svg'
+import docker from './docker.svg'
+import golang from './golang.svg'
+import java from './java.svg'
+import jenkins from './jenkins.svg'
+import linux from './linux.png'
+import maven from './maven.svg'
+import mysql from './mysql.svg'
+import php from './php.svg'
+import sonarqube from './sonarqube.svg'
+import springboot from './springboot.svg'
 
 export {
     css,
@@ -66,4 +82,20 @@ export {
     dart,
     firebase,
     parisdisneyshuttle,
+    company,
+    sysres,
+    aws,
+    bash,
+    c,
+    cpp,
+    docker,
+    golang,
+    java,
+    jenkins,
+    linux,
+    maven,
+    mysql,
+    php,
+    sonarqube,
+    springboot,
 }

@@ -31,7 +31,7 @@ const About = () => {
       <div className='py-10 flex flex-col'>
         <h3 className='subhead-text'>My Skills</h3>
 
-        <div className='mt-16 flex flex-wrap gap-12'>
+        <div className='mt-16 flex flex-wrap gap-16'>
           {skills.map((skill) => (
             <div className='relative group block-container w-20 h-20' key={skill.name}>
               <div className='btn-back rounded-xl' />
@@ -42,8 +42,11 @@ const About = () => {
                   className='w-1/2 h-1/2 object-contain'
                 />
               </div>
-              <span className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black text-white text-xs rounded-md px-2 py-1 left-0 right-0 top-20 z-10">
-                {skill.name} - {skill.type}
+              <p className='text-center mt-3 text-black font-semibold absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black text-white text-xs rounded-md px-2 py-1 left-0 right-0 top-20 z-10'>
+                {skill.name}
+              </p>
+              <span className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black text-white text-xs rounded-md px-2 py-1 left-0 right-0 top-0 z-10">
+                {skill.type}
               </span>
             </div>
           ))}
