@@ -27,6 +27,11 @@ jobs:
           echo "VITE_APP_EMAILJS_PUBLIC_KEY=${{ secrets.VITE_APP_EMAILJS_PUBLIC_KEY }}" >> .env
           npm run build
 
+      - name: adding 404.html
+        run: |
+          touch dist/404.html
+          echo "<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=/portfolio/" /></head><body><p>Redirecting...</p></body></html>" > dist/404.html
+
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
         with:
