@@ -1,7 +1,7 @@
 import { Route, HashRouter as Router, Routes } from "react-router-dom";
 
 import { Footer, Navbar } from "./components";
-import { About, Contact, Home, Projects, Blogs, Login } from "./pages";
+import { About, Contact, Home, Projects, Blogs, Login, Education } from "./pages";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
@@ -18,6 +18,7 @@ const App = () => {
                 <Routes>
                   <Route path='/login' element={<Login />} />
                   <Route path='/about' element={<About />} />
+                  <Route path='/education' element={<Education />} />
                   <Route path='/projects' element={<Projects />} />
                   <Route path='/contact' element={<Contact />} />
                   <Route path='/blogs' element={<Blogs />} />

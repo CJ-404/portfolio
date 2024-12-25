@@ -229,6 +229,44 @@ export const experiences = [
     },
 ];
 
+export const educations = [
+    {
+        title: "Bachelor of Science(hons) in Computer Science",
+        company_name: "University of Colombo School of Computing",
+        icon: company,
+        iconBg: "#b7e4c7",
+        date: "Since 2021",
+        points: [
+            "CGPA: 3.79",
+            "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Computer Networks, Database Management Systems, Software Engineering, Computer Architecture, Compiler Design, and Theory of Computation.",
+        ],
+    },
+    {
+        title: "Advanced Level",
+        company_name: "Taxila Central College Horana",
+        icon: company,
+        iconBg: "#b7e4c7",
+        date: "2019",
+        points: [
+            "Stream: Physical Science",
+            "Results:",
+            "Combined Mathematics: A",
+            "Physics: B",
+            "Chemistry: B",
+        ],
+    },
+    {
+        title: "Ordinary Level",
+        company_name: "Royal College Panadura",
+        icon: company,
+        iconBg: "#b7e4c7",
+        date: "2016",
+        points: [
+            "Results: 9A's",
+        ],
+    },
+];
+
 export const BlogDetails = [
     {
         title: "Parallelized Blocked Matrix Multiplication using OpenMP",
@@ -372,4 +410,39 @@ export const projects = [
         link: 'https://github.com/Ramith-D-Rodrigo/Flex-Bison',
         isOSS: true,
     }
+];
+
+export const achivements = [
+    {
+        iconUrl: '',
+        theme: 'btn-back-blue',
+        name: 'Director\'s List',
+        description: 'Awarded Director\'s List 2 times for years 2022 and 2023 for maintaining overall GPA above 3.7',
+        link: '',
+        hasProof: false,
+    },
+    {
+        iconUrl: '',
+        theme: 'btn-back-green',
+        name: 'MadHack 2.0 - 2023',
+        description: 'Won the All-Island 2nd place in the MadHack 2.0 hackathon organized by the University of Colombo School of Computing.',
+        link: '',
+        hasProof: false,
+    },
+    {
+        iconUrl: '',
+        theme: 'btn-back-red',
+        name: 'FreshHack 2023',
+        description: 'participated in the FreshHack 2023 hackathon organized by the University of Kelaniya.',
+        link: '',
+        hasProof: false,
+    },
+    {
+        iconUrl: '',
+        theme: 'btn-back-red',
+        name: 'Mora Kings BLITZ International Open Rating Chess Tournament 2024',
+        description: 'Placed under top 250 rank and opened rating by drawing a match against a rated player',
+        link: '',
+        hasProof: false,
+    },
 ];
