@@ -1,10 +1,14 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route, HashRouter as Router, Routes } from "react-router-dom";
 
 import { Footer, Navbar } from "./components";
 import { About, Contact, Home, Projects, Blogs, Login } from "./pages";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
+
+  console.log(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
+  console.log(import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
+  console.log(import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
   return (
     <main className='bg-slate-300/20'>
       <Router basename="/portfolio">
