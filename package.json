@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://CJ-404.github.io/portfolio",
+  "homepage": "https://cj-404.github.io/portfolio/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
