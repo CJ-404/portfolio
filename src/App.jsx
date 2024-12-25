@@ -7,7 +7,7 @@ import NotFound from "./pages/NotFound";
 const App = () => {
   return (
     <main className='bg-slate-300/20'>
-      <Router>
+      <Router basename="/portfolio">
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
