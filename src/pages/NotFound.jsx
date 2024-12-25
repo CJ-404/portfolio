@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import { Fox } from "../models";
-import { Suspense, useRef, useState } from "react";
-import { Alert, Loader } from "../components";
+import { Suspense } from "react";
+import { Loader } from "../components";
 
 const NotFound = () => {
     return (

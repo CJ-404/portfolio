@@ -4,7 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 
 import { CTA } from "../components";
-import { BlogDetails, skills } from "../constants";
+import { BlogDetails } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
 
