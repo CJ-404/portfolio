@@ -227,6 +227,17 @@ export const experiences = [
             "Collaborating with cross-functional teams including designers, product managers, and other developers to deliver high-quality products.",
         ],
     },
+    {
+        title: "Full-time Researcher",
+        company_name: "University of Colombo School of Computing",
+        icon: company,
+        iconBg: "#c3dafe",
+        date: "since May 2024",
+        points: [
+            "Researching on the topic of Microkernel based operating systems vs Monolithic kernel architecture.",
+            "Researching about implementation & design of containerization technology in Linux Kernel.",
+        ],
+    }
 ];
 
 export const educations = [
