@@ -48,6 +48,11 @@ import php from './php.svg'
 import sonarqube from './sonarqube.svg'
 import springboot from './springboot.svg'
 import medium from './medium.svg'
+import oss from './oss.svg'
+import sfsa from './sfsa.svg'
+import flatwork from './flatwork.svg'
+import ceeserver from './ceeserver.svg'
+import teasubsidy from './teasubsidy.png'
 
 export {
     css,
@@ -100,4 +105,9 @@ export {
     sonarqube,
     springboot,
     medium,
+    oss,
+    sfsa,
+    flatwork,
+    ceeserver,
+    teasubsidy,
 }
