@@ -3,11 +3,15 @@ import About from './About'
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Blogs from "./Blogs";
+import Login from "./login";
+import NotFound from "./NotFound";
 
 export {
     Home,
     About,
     Projects,
     Contact,
-    Blogs
+    Blogs,
+    Login,
+    NotFound,
 }
