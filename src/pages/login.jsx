@@ -1,9 +1,5 @@
 const Login = () => {
 
-  console.log(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
-  console.log(import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
-  console.log(import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
-
   return (
     <section className='relative flex lg:flex-row flex-col max-container'>
 
