@@ -20,9 +20,14 @@ const Blogs = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        I’m a 4th-year Computer Science undergraduate @UCSC passionate about operating systems, 
-        microkernel architectures, and modern web and mobile development & architecture design 
-        with the help of my profound knowledge in computer science fundamentals.
+          Hey, As a student benefiting from Sri Lanka's free education system, 
+          I believe in giving back to society by sharing the knowledge I've gained. 
+          Here, you'll find insights, ideas, and experiences that I hope will inspire and empower others. 
+          Together, let's learn, grow, and contribute to a better future.
+        </p>
+
+        <p>
+          Also, this is a great way for me to document my journey and keep track of my work.
         </p>
       </div>
 

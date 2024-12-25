@@ -249,14 +249,60 @@ export const experiences = [
 
 export const BlogDetails = [
     {
-        title: "Blog 1",
+        title: "Parallelized Blocked Matrix Multiplication using OpenMP",
         hosted_site: "Medium",
         icon: medium,
         iconBg: "#8B35E150",
-        date: "November 2023",
-        link: "https://medium.com/",
+        date: "27 November 2024",
+        link: "https://medium.com/@cj.ptsz/parallelized-blocked-matrix-multiplication-using-openmp-97a4bc620a47",
         points: [
-            "Points on the blog post",
+            "What is OpenMP and example usage",
+            "Optimize Simple matrix multiplication using Blocked matrix multiplication",
+            "Analysing the better approach to parallelize the blocked matrix multiplication",
+            "Results and performance comparison using simple graphs",
+        ],
+    },
+    {
+        title: "Creating C shared libraries for Linux",
+        hosted_site: "Medium",
+        icon: medium,
+        iconBg: "#8B35E150",
+        date: "14 Augest 2023",
+        link: "https://medium.com/dev-genius/creating-c-shared-libraries-for-linux-42ccc75af0d4",
+        points: [
+            "Creating shared libraries in C to reuse across all our C codebases.",
+            "Using header files",
+            "what is a shared library and how to create & compile one.",
+            "How to reuse shared libraries in C code",
+            "Published in Dev Genius",
+        ],
+    },
+    {
+        title: "Intro to Compilers",
+        hosted_site: "Medium",
+        icon: medium,
+        iconBg: "#8B35E150",
+        date: "8 June 2023",
+        link: "https://medium.com/@cj.ptsz/intro-to-compilers-46e6dea0c3e4",
+        points: [
+            "Need of a compiler",
+            "What is a compiler",
+            "Structure of a compiler",
+            "Phases of a compiler",
+            "Simple comparison with interpreters",
+        ],
+    },
+    {
+        title: "Design Patterns",
+        hosted_site: "Medium",
+        icon: medium,
+        iconBg: "#8B35E150",
+        date: "5 June 2023",
+        link: "https://medium.com/@cj.ptsz/design-patterns-bff7522cffc5",
+        points: [
+            "Need of a design pattern",
+            "What is a design pattern",
+            "Advantages of using design patterns",
         ],
     }
 ];
