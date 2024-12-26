@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { CTA } from "../components";
 import { educations, achivements } from "../constants";
 import { arrow, oss } from "../assets/icons";
+import cv from "../assets/Charith_Jayarangana_Resume.pdf";
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -28,9 +29,9 @@ const Education = () => {
         challenges.
         </p>
 
-        {/* <div className='flex flex-row align-center justify-between'>
+        <div className='flex flex-row align-center justify-between'>
             <a
-              href='/cv.pdf'
+              href={cv}
               target='_blank'
               className='btn btn-primary'
               rel='noreferrer'
@@ -38,15 +39,15 @@ const Education = () => {
               Download CV
             </a>
 
-            <a
+            {/* <a
               href='/transcript.pdf'
               target='_blank'
               className='btn btn-primary'
               rel='noreferrer'
             >
               Download Current Transcript
-            </a>
-        </div> */}
+            </a> */}
+        </div>
       </div>
 
       <div className='py-16'>
