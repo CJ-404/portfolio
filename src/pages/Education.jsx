@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import { CTA } from "../components";
 import { educations, achivements } from "../constants";
 import { arrow, oss } from "../assets/icons";
-import cv from "../assets/Charith_Jayarangana_Resume.pdf";
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -31,7 +30,7 @@ const Education = () => {
 
         <div className='flex flex-row align-center justify-between'>
             <a
-              href={cv}
+              href={"https://drive.google.com/uc?export=download&id=1wjiQIyDEbGZ9Lc4vmKJtMqhTMrV3uvtL"}
               target='_blank'
               className='btn btn-primary'
               rel='noreferrer'

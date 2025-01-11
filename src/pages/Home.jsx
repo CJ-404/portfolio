@@ -1,6 +1,5 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
-import cv from '../assets/Charith_Jayarangana_Resume.pdf';
 import sakura from "../assets/sakura.mp3";
 import { HomeInfo, Loader } from "../components";
 import { soundoff, soundon } from "../assets/icons";
@@ -117,7 +116,7 @@ const Home = () => {
       <div className='absolute bottom-0 right-2'> 
       
       <a
-        href={cv}
+        href={"https://drive.google.com/uc?export=download&id=1wjiQIyDEbGZ9Lc4vmKJtMqhTMrV3uvtL"}
         target='_blank'
         rel='noreferrer'
       >
